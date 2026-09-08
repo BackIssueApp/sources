@@ -10,10 +10,11 @@ BackIssue, the same way a plugin does: the app reads `catalog.json` from here
 and fetches that site's bundle from the latest release.
 
 To install by hand, drop a site's folder into your install's `sources/`
-directory and restart. Docker installs mount their data directory, so put it in
-the data directory's `sources/` folder, or set `SOURCES_DIR` to wherever you
-keep it. Cloning this whole repository as `sources/` works too, and then a
-`git pull` updates every site at once.
+directory and restart. On Docker and Unraid that folder is inside the volume
+you already map for app data, at `<appdata>/backissue/sources`, so an installed
+site survives an image update and you can reach it from the host; `SOURCES_DIR`
+overrides the location if you keep it elsewhere. Cloning this whole repository
+as `sources/` works too, and then a `git pull` updates every site at once.
 
 Each site is switched on and set up in **Settings → Sources**.
 
