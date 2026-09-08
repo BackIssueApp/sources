@@ -1,0 +1,55 @@
+{
+  "$comment": "The download sites BackIssue can install, one entry per site. The app reads this to list what is available and to compare against what is installed. `download` points at a zip of that site's folder; the release workflow builds one per site and attaches them to the tagged release.",
+  "sources": [
+    {
+      "id": "atsumaru",
+      "name": "Atsumaru",
+      "description": "Manga chapters from Atsumaru. Plain requests, no account and no browser build needed.",
+      "content": "manga",
+      "requires": null,
+      "version": "0.1.0",
+      "minApp": "0.8.2",
+      "download": "https://github.com/BackIssueApp/sources/releases/latest/download/atsumaru.zip"
+    },
+    {
+      "id": "mangadex",
+      "name": "MangaDex",
+      "description": "Manga chapters from MangaDex, with language and scanlation-group preferences. A series added from the hosted metadata service maps straight to its chapters.",
+      "content": "manga",
+      "requires": null,
+      "version": "0.1.0",
+      "minApp": "0.8.2",
+      "download": "https://github.com/BackIssueApp/sources/releases/latest/download/mangadex.zip"
+    },
+    {
+      "id": "mangataro",
+      "name": "MangaTaro",
+      "description": "Manga chapters from MangaTaro. Plain requests, no account needed.",
+      "content": "manga",
+      "requires": null,
+      "version": "0.1.0",
+      "minApp": "0.8.2",
+      "download": "https://github.com/BackIssueApp/sources/releases/latest/download/mangataro.zip"
+    },
+    {
+      "id": "weebcentral",
+      "name": "WeebCentral",
+      "description": "Manga chapters from WeebCentral. The site is behind Cloudflare, so set the FlareSolverr URL in Settings → Downloading.",
+      "content": "manga",
+      "requires": "flaresolverr",
+      "version": "0.1.0",
+      "minApp": "0.8.2",
+      "download": "https://github.com/BackIssueApp/sources/releases/latest/download/weebcentral.zip"
+    },
+    {
+      "id": "getcomics",
+      "name": "GetComics",
+      "description": "Direct downloads from GetComics: single issues and multi-issue packs, from its own server with PixelDrain as a fallback.",
+      "content": "comics",
+      "requires": "flaresolverr",
+      "version": "2.0.0",
+      "minApp": "0.8.2",
+      "download": "https://github.com/BackIssueApp/sources/releases/latest/download/getcomics.zip"
+    }
+  ]
+}

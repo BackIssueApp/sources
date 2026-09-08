@@ -1,0 +1,18 @@
+{
+  "name": "getcomics",
+  "version": "2.0.0",
+  "description": "Direct downloads from GetComics: single issues and multi-issue packs, Main DDL + PixelDrain",
+  "type": "module",
+  "private": true,
+  "backissue": {
+    "kind": "source",
+    "minApp": "0.8.2"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "GPL-3.0-or-later"
+}

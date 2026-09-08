@@ -32,6 +32,12 @@ First release. Needs BackIssue 0.8.2 or newer.
 - **WeebCentral.** Manga chapters. The site is behind Cloudflare, so set the
   **FlareSolverr URL** in Settings → Downloading; the browser build is not
   required.
+- **GetComics**, moved here from its own plugin and rebuilt on the app's source
+  toolkit: single issues and multi-issue packs, from the site's own server with
+  PixelDrain as a fallback. It is behind Cloudflare, so set the **FlareSolverr
+  URL** in Settings → Downloading. Half the code it carried as a plugin is
+  gone; nothing it did has been dropped. An old `getcomics` plugin install can
+  be removed once this is installed.
 - **Manual search everywhere.** From an issue's ⋯ menu, each site lists the
   uploads it has of that chapter — language, scanlation group, page count and
   release date, depending on what the site publishes — so you can take a

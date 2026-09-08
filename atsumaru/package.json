@@ -1,0 +1,18 @@
+{
+  "name": "atsumaru",
+  "version": "0.1.0",
+  "description": "Manga chapters from Atsumaru \u2014 plain requests, no account and no browser build needed",
+  "type": "module",
+  "private": true,
+  "backissue": {
+    "kind": "source",
+    "minApp": "0.8.2"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "GPL-3.0-or-later"
+}

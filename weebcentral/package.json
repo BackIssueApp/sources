@@ -1,0 +1,18 @@
+{
+  "name": "weebcentral",
+  "version": "0.1.0",
+  "description": "Manga chapters from WeebCentral (behind Cloudflare: needs FlareSolverr)",
+  "type": "module",
+  "private": true,
+  "backissue": {
+    "kind": "source",
+    "minApp": "0.8.2"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "GPL-3.0-or-later"
+}
