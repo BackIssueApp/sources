@@ -50,6 +50,16 @@
       "version": "2.0.0",
       "minApp": "0.8.2",
       "download": "https://github.com/BackIssueApp/sources/releases/latest/download/getcomics.zip"
+    },
+    {
+      "id": "annas",
+      "name": "Anna's Archive",
+      "description": "Ebooks (EPUB and PDF) from Anna's Archive: fast downloads with a member key, the free slow partner servers without one. The site checks for a real browser, so this needs the browser build.",
+      "content": "ebooks",
+      "requires": "browser",
+      "version": "0.1.0",
+      "minApp": "0.8.4",
+      "download": "https://github.com/BackIssueApp/sources/releases/latest/download/annas.zip"
     }
   ]
 }

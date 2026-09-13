@@ -1,0 +1,18 @@
+{
+  "name": "annas",
+  "version": "0.1.0",
+  "description": "Ebooks (EPUB and PDF) from Anna's Archive through its member fast-download API (needs the browser build for search)",
+  "type": "module",
+  "private": true,
+  "backissue": {
+    "kind": "source",
+    "minApp": "0.8.4"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "GPL-3.0-or-later"
+}

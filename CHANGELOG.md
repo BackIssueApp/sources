@@ -10,6 +10,21 @@ here.
 
 ## [Unreleased]
 
+### Added
+
+- **Anna's Archive.** Ebooks (EPUB and PDF) for Books libraries — an approved
+  book request, for instance. Books are searched by author and title in the
+  languages you accept — by ISBN first when the request has one, so the
+  exact edition wins. A downloaded EPUB whose own metadata names a language
+  you did not accept is refused and the next candidate tried — the site
+  labels some translations with the original's language. With a member
+  account's secret key the file comes
+  through the site's fast-download API; without one it comes from the free
+  slow partner servers (a browser check per file, slower, a daily limit).
+  The site checks for a real browser (DDoS-Guard), which FlareSolverr cannot
+  pass, so this one needs the browser build of the app. Needs BackIssue
+  0.8.4 or newer.
+
 ## [0.1.0] — 2026-09-08
 
 First release. Needs BackIssue 0.8.2 or newer.

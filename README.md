@@ -22,6 +22,7 @@ Each site is switched on and set up in **Settings → Sources**.
 
 | Site | Content | Needs |
 | --- | --- | --- |
+| `annas` | Ebooks (EPUB, PDF) | The browser build (the site checks for a real browser); a member key is optional — without it the free slow partner servers are used |
 | `atsumaru` | Manga chapters | Nothing — plain requests |
 | `getcomics` | Comics, single issues and packs | FlareSolverr (the site is behind Cloudflare) |
 | `mangadex` | Manga chapters | Nothing — plain requests |
