@@ -10,6 +10,10 @@ here.
 
 ## [Unreleased]
 
+## [0.2.0] — 2026-09-14
+
+Needs BackIssue 0.8.4 or newer for the new site; the others are unchanged.
+
 ### Added
 
 - **Anna's Archive.** Ebooks (EPUB and PDF) for Books libraries — an approved
