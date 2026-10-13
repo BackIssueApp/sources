@@ -10,6 +10,20 @@ here.
 
 ## [Unreleased]
 
+## [0.2.1] — 2026-10-12
+
+### Fixed
+
+- **GetComics: a PixelDrain challenge page is no longer saved as the comic.**
+  PixelDrain sometimes answers a download with a normal-looking web page — a
+  challenge or its free-transfer rate limit — rather than an error, and that
+  page was being filed as the archive and only caught at import. With a
+  browser installed, GetComics now lets it clear the file host as a last
+  resort (cookies only; the file still downloads as a plain request), after
+  FlareSolverr has had its turn. The clearing itself needs the next BackIssue
+  release; on current builds the change is harmless and the failure is at
+  least named clearly.
+
 ## [0.2.0] — 2026-09-14
 
 Needs BackIssue 0.8.4 or newer for the new site; the others are unchanged.

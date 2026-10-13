@@ -66,6 +66,11 @@ export const getcomics = {
   types: ['comic'],   // a western-comics site: manga libraries never search it
   rateMs: 1000,
   cloudflare: true,   // uses the shared FlareSolverr (Settings → Downloading)
+  // The file hosts (PixelDrain) sometimes answer a download with a 200 HTML
+  // challenge a plain request can't pass; when a browser is installed it may
+  // clear that host as a last resort (cookies only — the file still streams
+  // as a plain request).
+  browser: 'fallback',
   proxy: true,        // an optional egress proxy for the file download only
   testQuery: 'batman',
 

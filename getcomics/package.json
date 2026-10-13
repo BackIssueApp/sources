@@ -1,6 +1,6 @@
 {
   "name": "getcomics",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Direct downloads from GetComics: single issues and multi-issue packs, Main DDL + PixelDrain",
   "type": "module",
   "private": true,
